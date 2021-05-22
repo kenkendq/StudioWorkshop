@@ -47,4 +47,6 @@ public class BallManager : MonoBehaviour
 
     //さらにさらに追加するよ！
 
+    //けんけんさんのリモートをソースツリーに落として操作するよ！
+
 }
