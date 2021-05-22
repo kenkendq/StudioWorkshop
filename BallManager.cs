@@ -40,4 +40,5 @@ public class BallManager : MonoBehaviour
         }
     }
     //テストのために最後にいｒなあい１ぶんｗのだおｄｊこあ
+    //ソースツリーからの操作だよ！
 }
