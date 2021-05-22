@@ -51,4 +51,6 @@ public class BallManager : MonoBehaviour
 
     //わいのブランチから編集したものを違うブランチに編集するで
 
+    //プッシュするために編集するで
+
 }
