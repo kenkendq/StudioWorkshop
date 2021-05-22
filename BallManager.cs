@@ -49,4 +49,6 @@ public class BallManager : MonoBehaviour
 
     //けんけんさんのリモートをソースツリーに落として操作するよ！
 
+    //わいのブランチから編集したものを違うブランチに編集するで
+
 }
