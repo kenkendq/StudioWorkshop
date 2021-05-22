@@ -16,29 +16,33 @@ public class BallManager : MonoBehaviour
         
     }
 
-    //ƒ{[ƒ‹‚ª‰½‚©‚ÌƒIƒuƒWƒFƒNƒg‚ÉÕ“Ë
+    //ãƒœãƒ¼ãƒ«ãŒä½•ã‹ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã«è¡çª
     void OnCollisionEnter2D(Collision2D coll)
     {
         if(coll.gameObject.tag == "OutArea")
         {
-            //ƒAƒEƒgƒGƒŠƒA‚ÉÕ“Ë
-            //ƒQ[ƒ€ƒ}ƒl[ƒWƒƒ‚ğæ“¾
+            //ã‚¢ã‚¦ãƒˆã‚¨ãƒªã‚¢ã«è¡çª
+            //ã‚²ãƒ¼ãƒ ãƒãƒãƒ¼ã‚¸ãƒ£ã‚’å–å¾—
             GameObject gameManager = GameObject.Find("GameManager");
-            //ƒŠƒgƒ‰ƒC
+            //ãƒªãƒˆãƒ©ã‚¤
             gameManager.GetComponent<GameManager>().PushRetryButton();
         }
     }
 
-    //ƒ{[ƒ‹‚ª‰½‚©‚ÌƒgƒŠƒK[‚ÉÕ“Ë
+    //ãƒœãƒ¼ãƒ«ãŒä½•ã‹ã®ãƒˆãƒªã‚¬ãƒ¼ã«è¡çª
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "ClearArea")
         {
-            //ƒNƒŠƒAƒGƒŠƒA‚É“ü‚Á‚½
+            //ã‚¯ãƒªã‚¢ã‚¨ãƒªã‚¢ã«å…¥ã£ãŸ
             GameObject gameManager = GameObject.Find("GameManager");
             gameManager.GetComponent<GameManager>().StageClear();
         }
     }
-    //ƒeƒXƒg‚Ì‚½‚ß‚ÉÅŒã‚É‚¢‚’‚È‚ ‚¢‚P‚Ô‚ñ‚—‚Ì‚¾‚¨‚„‚Š‚±‚ 
-    //ƒ\[ƒXƒcƒŠ[‚©‚ç‚Ì‘€ì‚¾‚æI
+    //ãƒ†ã‚¹ãƒˆã®ãŸã‚ã«æœ€å¾Œã«ã„ï½’ãªã‚ã„ï¼‘ã¶ã‚“ï½—ã®ã ãŠï½„ï½Šã“ã‚
+
+    //ã‚½ãƒ¼ã‚¹ãƒ„ãƒªãƒ¼ã‹ã‚‰ã®æ“ä½œã ã‚ˆï¼
+
+    //ã•ã‚‰ã«è¿½åŠ ã™ã‚‹ã‚ˆï¼
+
 }
