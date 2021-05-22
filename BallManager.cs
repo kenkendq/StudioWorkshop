@@ -39,4 +39,5 @@ public class BallManager : MonoBehaviour
             gameManager.GetComponent<GameManager>().StageClear();
         }
     }
+    //ƒeƒXƒg‚Ì‚½‚ß‚ÉÅŒã‚É‚¢‚’‚È‚ ‚¢‚P‚Ô‚ñ‚—‚Ì‚¾‚¨‚„‚Š‚±‚ 
 }
