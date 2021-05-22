@@ -45,4 +45,6 @@ public class BallManager : MonoBehaviour
 
     //さらに追加するよ！
 
+    //さらにさらに追加するよ！
+
 }
